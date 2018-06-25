@@ -39,13 +39,13 @@ import org.wwlib.Converter;
  */
 public abstract class AbstractHTTPTransport {
 
-  public final static String METHOD_POST = "POST";
-  public final static String METHOD_GET = "GET";
-  public final static String METHOD_PUT = "PUT";
-  public final static String METHOD_CONNECT = "CONNECT";
-  public final static String METHOD_HEAD = "HEAD";
-  public final static String METHOD_DELETE = "DELETE";
-  public final static String METHOD_OPTIONS = "OPTIONS";
+//  public final static String METHOD_POST = "POST";
+//  public final static String METHOD_GET = "GET";
+//  public final static String METHOD_PUT = "PUT";
+//  public final static String METHOD_CONNECT = "CONNECT";
+//  public final static String METHOD_HEAD = "HEAD";
+//  public final static String METHOD_DELETE = "DELETE";
+//  public final static String METHOD_OPTIONS = "OPTIONS";
 
 // private static final Logger log = LoggerFactory.getLogger(AbstractHTTPTransport.class);
   private final static Logger log = LogManager.getLogger();

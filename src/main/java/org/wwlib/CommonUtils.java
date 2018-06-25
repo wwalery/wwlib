@@ -143,6 +143,129 @@ public final class CommonUtils {
   }
 
   /**
+   * Fill Map<Key, Value>
+   * <p>
+   * @param key1 key for fill map
+   * @param value1 value for fill map
+   * @return filled hash map
+   */
+  public static <Key, Value> Map<Key, Value> buildMap(Key key1, Value value1) {
+    Objects.nonNull(key1);
+    HashMap<Key, Value> result = new HashMap<>();
+    result.put(key1, value1);
+    return result;
+  }
+  
+  /**
+   * Fill Map<Key, Value>
+   * <p>
+   * @param key1 key 1 for fill map
+   * @param value1 value 1 for fill map
+   * @param key2 key 2 for fill map
+   * @param value2 value 2 for fill map
+   * @return filled hash map
+   */
+  public static <Key, Value> Map<Key, Value> buildMap(Key key1, Value value1,
+          Key key2, Value value2) {
+    Objects.nonNull(key1);
+    Objects.nonNull(key2);
+    HashMap<Key, Value> result = new HashMap<>();
+    result.put(key1, value1);
+    result.put(key2, value2);
+    return result;
+  }
+
+  /**
+   * Fill Map<Key, Value>
+   * <p>
+   * @param key1 key 1 for fill map
+   * @param value1 value 1 for fill map
+   * @param key2 key 2 for fill map
+   * @param value2 value 2 for fill map
+   * @param key3 key 3 for fill map
+   * @param value3 value 3 for fill map
+   * @return filled hash map
+   */
+  public static <Key, Value> Map<Key, Value> buildMap(Key key1, Value value1,
+          Key key2, Value value2,
+          Key key3, Value value3) {
+    Objects.nonNull(key1);
+    Objects.nonNull(key2);
+    Objects.nonNull(key3);
+    HashMap<Key, Value> result = new HashMap<>();
+    result.put(key1, value1);
+    result.put(key2, value2);
+    result.put(key3, value3);
+    return result;
+  }
+
+
+  /**
+   * Fill Map<Key, Value>
+   * <p>
+   * @param key1 key 1 for fill map
+   * @param value1 value 1 for fill map
+   * @param key2 key 2 for fill map
+   * @param value2 value 2 for fill map
+   * @param key3 key 3 for fill map
+   * @param value3 value 3 for fill map
+   * @param key4 key 4 for fill map
+   * @param value4 value 4 for fill map
+   * @return filled hash map
+   */
+  public static <Key, Value> Map<Key, Value> buildMap(Key key1, Value value1,
+          Key key2, Value value2,
+          Key key3, Value value3,
+          Key key4, Value value4) {
+    Objects.nonNull(key1);
+    Objects.nonNull(key2);
+    Objects.nonNull(key3);
+    Objects.nonNull(key4);
+    HashMap<Key, Value> result = new HashMap<>();
+    result.put(key1, value1);
+    result.put(key2, value2);
+    result.put(key3, value3);
+    result.put(key4, value4);
+    return result;
+  }
+
+
+  /**
+   * Fill Map<Key, Value>
+   * <p>
+   * @param key1 key 1 for fill map
+   * @param value1 value 1 for fill map
+   * @param key2 key 2 for fill map
+   * @param value2 value 2 for fill map
+   * @param key3 key 3 for fill map
+   * @param value3 value 3 for fill map
+   * @param key4 key 4 for fill map
+   * @param value4 value 4 for fill map
+   * @param key5 key 5 for fill map
+   * @param value5 value 5 for fill map
+   * @return filled hash map
+   */
+  public static <Key, Value> Map<Key, Value> buildMap(Key key1, Value value1,
+          Key key2, Value value2,
+          Key key3, Value value3,
+          Key key4, Value value4,
+          Key key5, Value value5) {
+    Objects.nonNull(key1);
+    Objects.nonNull(key2);
+    Objects.nonNull(key3);
+    Objects.nonNull(key4);
+    Objects.nonNull(key5);
+    HashMap<Key, Value> result = new HashMap<>();
+    result.put(key1, value1);
+    result.put(key2, value2);
+    result.put(key3, value3);
+    result.put(key4, value4);
+    result.put(key5, value5);
+    return result;
+  }
+
+  
+  /**
    * Convert list of files to list of it absolute paths.
    * <p>
    * Used, above all, in trace log.
