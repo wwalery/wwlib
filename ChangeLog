@@ -1,4 +1,7 @@
-WWLib Copyright (c) 2006-2018
+WWLib Copyright (c) 2006-2020
+
+2020-01-04 v.2.36.0 Walery Wysotsky <dev@wysotsky.info>
+* Add TriFunction
 
 2018-04-26 v.2.35.0 Walery Wysotsky <dev@wysotsky.info>
 * Additional map builder

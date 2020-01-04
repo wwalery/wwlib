@@ -4,7 +4,7 @@
  <groupId>org.wwlib</groupId>
  <artifactId>wwlib</artifactId>
  <packaging>jar</packaging>
- <version>2.34.1</version>
+ <version>2.36.0</version>
  <name>WW Utilities library</name>
  <url>http://maven.apache.org</url>
  <properties>
